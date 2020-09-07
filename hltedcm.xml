@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="kyasu/android_device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="github" revision="lineage-17.1" />
+  <project name="kyasu/android_device_samsung_hltedcm" path="device/samsung/hltedcm" remote="github" revision="lineage-17.1" />
+  <project name="kyasu/android_kernel_samsung_msm8974" path="kernel/samsung/msm8974" remote="github" revision="lineage-17.1" />
+  <project name="kyasu/android_vendor_samsung_hltedcm" path="vendor/samsung/hltedcm" revision="lineage-17.1" />
+  <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="lineage-17.1" />
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-17.1" />
+</manifest>
