@@ -23,7 +23,7 @@ How to build LineageOS for Essential Phone (PH-1, mata)
  cd ~/lineage-17.1
 
 6, Download the source code
- repo init -u https://github.com/LineageOS/android.git -b lineage-17.1"
+ repo init -u https://github.com/LineageOS/android.git -b lineage-17.1
  repo sync
  
 7, Download device binary.
