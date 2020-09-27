@@ -1,4 +1,4 @@
-How to build LineageOS for Essential Phone (PH-1, mata)
+How to build LineageOS for Galaxy Note 3 (SC-01F, hltedcm)
 
 1, Install Ubuntu 20.04.x.
 
