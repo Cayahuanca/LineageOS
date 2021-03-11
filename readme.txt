@@ -28,7 +28,7 @@ How to build LineageOS 18.1 for Essential Phone (PH-1, mata)
  
 7, Download device binary.
 Download mata.xml from this repository.
-Copy mata.xml to "~/lineage-18.1/.repo/local_manifests".
+Copy mata.xml to "~/lineage-18.1/.repo/local_manifests"
  repo sync
 
 8, Build for mata.
