@@ -1,6 +1,6 @@
 How to build LineageOS 18.1 for Galaxy Note 3 (SC-01F, hltedcm)
 
-1, Install Ubuntu 22.04.x.
+1, Install Ubuntu 23.04.x
 
 2, Install packages for build.
  sudo apt update && sudo apt upgrade -y
@@ -54,3 +54,14 @@ Select ADB sideload.
 (10, Install Magisk)
 
 11, Enjoy LineageOS.
+
+
+
+# Troubleshooting
+If your console prints an error like this:
+"Invalid filesystem option set: has_journal,extent,huge_file,flex_bg,metadata_csum,64bit,dir_nlink,extra_isize,orphan_file"
+# sudo nano /etc/mke2fs.conf
+  replace the ext4 part below:
+  before: ext4 = {has_journal,extent,huge_file,flex_bg,metadata_csum,64bit,dir_nlink,extra_isize,orphan_file}
+  after: ext4 = {features = has_journal}
+Reference: https://blog.csdn.net/didayuye/article/details/130462203
